@@ -1,16 +1,108 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive NavBar</title>
+    <!-- Bootstrap 4.3.1 CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #BFEFFFFF;">
+    <a class="navbar-brand" href="#">
+<img src="https://via.placeholder.com/150x50?text=Accio+Job" alt="Accio Job Logo" style="height: 50px;">
+
+	</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBootcamps" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Bootcamps
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownBootcamps">
+                    <a class="dropdown-item" href="#">Popular Bootcamps</a>
+                    <a class="dropdown-item" href="#">Bootcamp Developers</a>
+                    <a class="dropdown-item" href="#">Bootcamp Financing</a>
+                    <a class="dropdown-item" href="#">Bootcamp Grads and Alumni</a>
+                </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCoding" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Coding
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownCoding">
+                    <a class="dropdown-item" href="#">Coding tools</a>
+                    <a class="dropdown-item" href="#">HTML</a>
+                    <a class="dropdown-item" href="#">CSS</a>
+                    <a class="dropdown-item" href="#">JS</a>
+                    <a class="dropdown-item" href="#">PYTHON</a>
+                    <a class="dropdown-item" href="#">Ruby</a>
+                    <a class="dropdown-item" href="#">C++</a>
+                    <a class="dropdown-item" href="#">Java</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareerResources" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Career Resources
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownCareerResources">
+                    <a class="dropdown-item" href="#">Career Advice</a>
+                    <a class="dropdown-item" href="#">Interviews</a>
+                    <a class="dropdown-item" href="#">Tech Cities</a>
+                    <a class="dropdown-item" href="#">Tech Salaries</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTechFields" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tech Fields
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownTechFields">
+                    <a class="dropdown-item" href="#">Web Design</a>
+                    <a class="dropdown-item" href="#">Web Development</a>
+                    <a class="dropdown-item" href="#">Software Engineering</a>
+                    <a class="dropdown-item" href="#">Data Science</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">News & Commentary</a>
+            </li>
+
+         <li class="nav-item">
+    <form class="d-flex flex-column flex-md-row align-items-start align-items-md-center">
+        <input 
+            class="form-control mb-2 mb-md-0 me-md-2" 
+            type="search" 
+            placeholder="Search" 
+            aria-label="Search"
+        >
+        <button 
+            class="btn btn-outline-success" 
+            type="submit"
+            style="background-color: white; border-color: green; color: green;"
+        >
+            Search
+        </button>
+    </form>
+</li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Bootstrap 4.3.1 JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
